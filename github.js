@@ -1,1 +1,1 @@
-new GitHubCalendar(".calendar", "potadar1999", { responsive: true });
+new GitHubCalendar(".calendar", "sumitbokshi", { responsive: true });
