@@ -1,0 +1,1 @@
+new GitHubCalendar(".calendar", "potadar1999", { responsive: true });
