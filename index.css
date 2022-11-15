@@ -300,45 +300,8 @@ img.man-icons {
   display: flex;
   align-items: center;
 }
-.skills-bar {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  background-color: var(--first-color);
-  height: 0.25rem;
-  border-radius: 0.5rem;
-  z-index: var(--z-back);
-}
-.skills-html {
-  width: 75%;
-}
-.skills-css {
-  width: 70%;
-}
-.skills-js {
-  width: 85%;
-}
-.skills-react,
-.skills-mongo {
-  width: 80%;
-}
-.skills-redux {
-  width: 90%;
-}
-.skills-mui,
-.skills-sql {
-  width: 65%;
-}
-.skills-ts {
-  width: 70%;
-}
-.skills-express,
-.skills-node {
-  width: 85%;
-}
-.skills-img {
-  border-radius: 0.5rem;
-}
+
+
 
 /* ===== Projects =====*/
 .project-container {
@@ -508,6 +471,25 @@ img.man-icons {
   }
   .contact-container {
     justify-items: center;
+  }
+  .footer {
+    background-color: var(--second-color);
+    color: #fff;
+    text-align: center;
+    font-weight: var(--font-semi);
+    padding: 3.5rem 0;
+  }
+  .footer-title {
+    font-size: 2rem;
+    margin-bottom: var(--mb-4);
+  }
+  .footer-social {
+    margin-bottom: var(--mb-4);
+  }
+  .footer-icon {
+    font-size: 1rem;
+    color: #fff;
+    margin: 0 var(--mb-2);
   }
 }
 
